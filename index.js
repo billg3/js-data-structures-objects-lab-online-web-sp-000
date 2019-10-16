@@ -16,7 +16,7 @@ return driver
 }
 
 
-function deleteFromDriverByKey(){
+function deleteFromDriverByKey(driver, key ){
 
 }
 
