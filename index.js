@@ -1,5 +1,5 @@
 // Write your solution in this file!
-const driver = {};
+const dri = {};
 
 
 function updateDriverWithKeyAndValue (driver, key, value ){
@@ -22,6 +22,7 @@ return driver
 
 function deleteFromDriverByKey(driver, key){
   const newObj = Object.assign({}, driver);
+
    delete newObj[key];
      return newObj;
 }
